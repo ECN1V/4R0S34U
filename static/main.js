@@ -101,7 +101,7 @@ class ROSE {
     }
 
     async requestFlower(name) {
-        creturn toCharGrid(this.art)
+        return toCharGrid(this.art)
 
     getRandomChar() {
         return this.characters.charAt(Math.floor(Math.random() * this.characters.length));
