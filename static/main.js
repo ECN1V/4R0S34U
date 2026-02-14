@@ -4,8 +4,8 @@ class ROSE {
         this.textElement = document.querySelector(".text");
         this.proposalElement = document.getElementById("proposal")
 
-        this.keyAudio = new Audio('/static/audio/key.mp3');
-        this.spaceAudio = new Audio('/static/audio/spacebar.mp3');
+        this.keyAudio = new Audio('static/audio/key.mp3');
+        this.spaceAudio = new Audio('static/audio/spacebar.mp3');
 
         this.characters = '.!@#$1234567890%&ILY;:';
         this.rendering = false;
